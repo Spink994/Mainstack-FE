@@ -4,22 +4,22 @@
 
 @font-face {
   font-family: "Sohne-Light";
-  src: url("./assets/TestSöhne-Leicht.otf");
+  src: url("./TestSöhne-Leicht.otf");
 }
 
 @font-face {
   font-family: "Sohne-Normal";
-  src: url("./assets/TestSöhne-Buch.otf");
+  src: url("./TestSöhne-Buch.otf");
 }
 
 @font-face {
   font-family: "Sohne-Semibold";
-  src: url("./assets/TestSöhne-Halbfett.otf");
+  src: url("./TestSöhne-Halbfett.otf");
 }
 
 @font-face {
   font-family: "Sohne-Bold";
-  src: url("./assets/TestSöhne-Dreiviertelfett.otf");
+  src: url("./TestSöhne-Dreiviertelfett.otf");
 }
 
 * {
