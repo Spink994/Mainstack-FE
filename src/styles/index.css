@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Sohne-Light";
+  src: url("../assets/fonts/TestSöhne-Leicht.otf");
+}
+
+@font-face {
+  font-family: "Sohne-Normal";
+  src: url("../assets/fonts/TestSöhne-Buch.otf");
+}
+
+@font-face {
+  font-family: "Sohne-Semibold";
+  src: url("../assets/fonts/TestSöhne-Halbfett.otf");
+}
+
+@font-face {
+  font-family: "Sohne-Bold";
+  src: url("../assets/fonts/TestSöhne-Dreiviertelfett.otf");
+}
+
+* {
+  font-family: "Sohne-Normal";
+}
+
+.orange-filter {
+  filter: invert(40%) sepia() saturate(6000%) hue-rotate(10deg);
+}
