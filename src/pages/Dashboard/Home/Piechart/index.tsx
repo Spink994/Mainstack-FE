@@ -197,7 +197,7 @@ export function Piechart({ chartData, type }: PieChartProps) {
       <div className="flex items-center justify-between">
         <h1 className="font-Sohne font-semibold">Top Locations</h1>
         <Link className="text-orange-2 text-sm" to="/view-analytics">
-          View analytics
+          View full reports
         </Link>
       </div>
 
