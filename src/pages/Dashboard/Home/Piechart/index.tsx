@@ -104,7 +104,10 @@ export function Piechart({ chartData, type }: PieChartProps) {
 
           // This is the jsx element of the pie chart information with all the fields required
           return (
-            <div key={index} className="flex items-center font-SohneNormal">
+            <div
+              key={index}
+              className="flex items-center font-Sohne font-normal"
+            >
               <img
                 src={allRequiredfields.flagImage}
                 alt="flag"
@@ -113,7 +116,7 @@ export function Piechart({ chartData, type }: PieChartProps) {
               <span className="font-[inherit]">
                 {allRequiredfields.country}
               </span>
-              <span className="ml-2 font-SohneSemibold">
+              <span className="ml-2 font-Sohne font-semibold">
                 {allRequiredfields.percentage}%
               </span>
               <div
@@ -128,7 +131,10 @@ export function Piechart({ chartData, type }: PieChartProps) {
           // Initiating the source in a lowercase form to remove repitition
           const source = item.source.toLowerCase();
           return (
-            <div key={index} className="flex items-center font-SohneNormal">
+            <div
+              key={index}
+              className="flex items-center font-Sohne font-normal"
+            >
               {/* For social icons other than google */}
               {source !== "google" && (
                 <img
@@ -156,7 +162,9 @@ export function Piechart({ chartData, type }: PieChartProps) {
               {/* The source name */}
               <span className="font-[inherit] capitalize">{item.source}</span>
               {/* The source percentage */}
-              <span className="ml-2 font-SohneSemibold">{item.percent}%</span>
+              <span className="ml-2 font-Sohne font-semibold">
+                {item.percent}%
+              </span>
               {/* The source color code */}
               <div
                 className="min-h-[12px] min-w-[12px] rounded-full ml-3"
@@ -187,7 +195,7 @@ export function Piechart({ chartData, type }: PieChartProps) {
   return (
     <div className="flex flex-col w-full">
       <div className="flex items-center justify-between">
-        <h1 className="font-SohneSemibold">Top Locations</h1>
+        <h1 className="font-Sohne font-semibold">Top Locations</h1>
         <Link className="text-orange-2 text-sm" to="/view-analytics">
           View analytics
         </Link>

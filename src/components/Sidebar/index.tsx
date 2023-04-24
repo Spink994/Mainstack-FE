@@ -17,14 +17,14 @@ export default function Sidebar() {
         />
       </div>
       {/* All Links */}
-      <div className="w-full mt-12 flex flex-col gap-6">
+      <div className="w-full mt-12 flex flex-col gap-6 mb-24">
         {/* main links */}
         {sidebarData.data.main.map((link, index: number) => (
           <Link
             className={`pl-[60px] h-7 flex items-center gap-4 ${
               activeLink === link.href
-                ? "text-orange-2 border-l-2 border-orange-2 font-SohneNormal orange-filter"
-                : "text-gray-1 font-SohneSemibold"
+                ? "text-orange-2 border-l-2 border-orange-2 font-Sohne font-normal orange-filter"
+                : "text-gray-1 font-Sohne font-normal"
             }`}
             key={index}
             to={link.href}
@@ -34,15 +34,17 @@ export default function Sidebar() {
           </Link>
         ))}
 
-        <h6 className="font-SohneLight text-xs pl-[60px] mt-3">OTHERS 1</h6>
+        <h6 className="font-Sohne font-light text-xs pl-[60px] mt-3">
+          OTHERS 1
+        </h6>
 
         {/* Others 1 */}
         {sidebarData.data.others1.map((link, index: number) => (
           <Link
             className={`pl-[60px] h-7 flex items-center gap-4 ${
               activeLink === link.href
-                ? "text-orange-2 border-l-2 border-orange-2 font-SohneNormal orange-filter"
-                : "text-gray-1 font-SohneSemibold"
+                ? "text-orange-2 border-l-2 border-orange-2 font-Sohne font-normal orange-filter"
+                : "text-gray-1 font-Sohne font-normal"
             }`}
             key={index}
             to={link.href}
@@ -54,15 +56,17 @@ export default function Sidebar() {
           </Link>
         ))}
 
-        <h6 className="font-SohneLight text-xs pl-[60px] mt-3">OTHERS 2</h6>
+        <h6 className="font-Sohne font-light text-xs pl-[60px] mt-3">
+          OTHERS 2
+        </h6>
 
         {/* Others 2 */}
         {sidebarData.data.others2.map((link, index: number) => (
           <Link
             className={`pl-[60px] h-7 flex items-center gap-4 ${
               activeLink === link.href
-                ? "text-orange-2 border-l-2 border-orange-2 font-SohneNormal orange-filter"
-                : "text-gray-1 font-SohneSemibold"
+                ? "text-orange-2 border-l-2 border-orange-2 font-Sohne font-normal orange-filter"
+                : "text-gray-1 font-Sohne font-normal"
             }`}
             key={index}
             to={link.href}
@@ -82,7 +86,7 @@ export default function Sidebar() {
           src={ProfilePicture}
           alt="profile-picture"
         />
-        <span className="font-SohneNormal text-sm">Blessing Daniels</span>
+        <span className="font-Sohne font-normal text-sm">Blessing Daniels</span>
       </div>
     </nav>
   );

@@ -29,7 +29,7 @@ export default function DashboardHome() {
       {/* Top container */}
       <div className="w-full flex items-center justify-between">
         <div>
-          <h1 className="font-SohneSemibold text-2xl">
+          <h1 className="font-Sohne font-semibold text-2xl">
             Good morning, Blessing ⛅️
           </h1>
           <span className="text-sm text-gray-2">

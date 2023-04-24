@@ -4,10 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        SohneLight: ["Sohne-light", "sans-serif"],
-        SohneNormal: ["Sohne-Normal", "sans-serif"],
-        SohneSemibold: ["Sohne-Semibold", "sans-serif"],
-        SohneBold: ["Sohne-Bold", "sans-serif"],
+        Sohne: ["Sohne", "sans-serif"],
       },
 
       colors: {

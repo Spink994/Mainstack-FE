@@ -13,7 +13,7 @@ export default function DashboardLayout({ children }: LayoutProps) {
       {/* The main view content */}
       <section className="w-full h-full overflow-auto">
         <div className="h-[68px] flex items-center px-[60px] bg-white/90 backdrop-blur-[16px]">
-          <span className="font-SohneSemibold text-black-1 tracking-[-0.015em] text-[20px]">
+          <span className="font-Sohne font-semibold text-black-1 tracking-[-0.015em] text-[20px]">
             Dashboard
           </span>
         </div>

@@ -125,12 +125,14 @@ export function AreaChart({ chartData, filterType }: AreaChartProps) {
         data={data}
       />
       <div className="absolute bg-transparent min-h-[16px] w-max top-8 left-2">
-        <h1 className="font-SohneSemibold text-[18px] mb-2">Page Views</h1>
-        <span className="font-SohneLight text-sm text-gray-1">
+        <h1 className="font-Sohne font-semibold text-[18px] mb-2">
+          Page Views
+        </h1>
+        <span className="font-Sohne font-light text-sm text-gray-1">
           {filterType}{" "}
           {filterType.toLowerCase() !== "all time" ? "Day(s)" : null}
         </span>
-        <h2 className="font-SohneSemibold text-5xl mt-4">500</h2>
+        <h2 className="font-Sohne font-semibold  text-5xl mt-4">500</h2>
       </div>
     </div>
   );

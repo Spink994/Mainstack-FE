@@ -3,27 +3,31 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Sohne-Light";
-  src: url("../assets/TestSöhne-Leicht.otf");
+  font-family: "Sohne";
+  src: url("../assets/fonts/Sohne-300.otf");
+  font-weight: 300;
 }
 
 @font-face {
-  font-family: "Sohne-Normal";
-  src: url("../assets/TestSöhne-Buch.otf");
+  font-family: "Sohne";
+  src: url("../assets/fonts/Sohne-400.otf");
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: "Sohne-Semibold";
-  src: url("../assets/TestSöhne-Halbfett.otf");
+  font-family: "Sohne";
+  src: url("../assets/fonts/Sohne-600.otf");
+  font-weight: 600;
 }
 
 @font-face {
-  font-family: "Sohne-Bold";
-  src: url("../assets/TestSöhne-Dreiviertelfett.otf");
+  font-family: "Sohne";
+  src: url("../assets/fonts/Sohne-700.otf");
+  font-weight: 700;
 }
 
 * {
-  font-family: "Sohne-Normal";
+  font-family: "Sohne";
 }
 
 .orange-filter {
